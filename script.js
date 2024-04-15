@@ -80,7 +80,6 @@ for (let cell of cells) {
                 setTimeout(() => {
                     resetGame();
                 }, 3000);
-                resetGame();
             }
             else if (count === 9) {
                 alert("It's a draw!");
